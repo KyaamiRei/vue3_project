@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div
-        @click="$router.push('/posts')"
+        @click="$router.push('/')"
     >
         Vue 3
     </div>
@@ -10,6 +10,16 @@
             @click="$router.push('/posts')"
         >
             Посты
+        </my-button>
+        <my-button
+            @click="$router.push('/store')"
+        >
+            Посты c использование VueX
+        </my-button>
+        <my-button
+            @click="$router.push('/compApi')"
+        >
+            Использование CompositionApi
         </my-button>
     </div>
   </div>

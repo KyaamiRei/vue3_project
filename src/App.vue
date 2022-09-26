@@ -1,8 +1,10 @@
 <template>
-  
-  <div class="app">
-    <router-view></router-view>
-    
+  <div>
+    <navbar />
+    <div class="app">
+      <router-view></router-view>
+      
+    </div>
   </div>
 </template>
 
